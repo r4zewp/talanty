@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "873643012291",
+    "firebase_url": "https://talenty-bi2008.firebaseio.com",
+    "project_id": "talenty-bi2008",
+    "storage_bucket": "talenty-bi2008.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873643012291:android:2f210287414942602c7276",
+        "android_client_info": {
+          "package_name": "razewp.talenty_two"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873643012291-acsib2uvuk0tgi25e8ove4449l091bik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX_61BHiKKmZWowLVj1y7YbNr6hipxPX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873643012291-acsib2uvuk0tgi25e8ove4449l091bik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

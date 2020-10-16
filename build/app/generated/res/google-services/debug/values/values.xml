@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">873643012291-acsib2uvuk0tgi25e8ove4449l091bik.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://talenty-bi2008.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">873643012291</string>
+    <string name="google_api_key" translatable="false">AIzaSyCX_61BHiKKmZWowLVj1y7YbNr6hipxPX8</string>
+    <string name="google_app_id" translatable="false">1:873643012291:android:2f210287414942602c7276</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCX_61BHiKKmZWowLVj1y7YbNr6hipxPX8</string>
+    <string name="google_storage_bucket" translatable="false">talenty-bi2008.appspot.com</string>
+    <string name="project_id" translatable="false">talenty-bi2008</string>
+</resources>
