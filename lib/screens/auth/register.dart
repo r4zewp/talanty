@@ -47,7 +47,7 @@ class _RegisterState extends State<Register> {
                   Padding(
                     padding: EdgeInsets.only(left: size.width * 0.05),
                     child: Text(
-                      'Talanty',
+                      'Talenty',
                       style: TextStyle(
                         color: Colors.white,
                         fontFamily: 'Poppins',
@@ -146,7 +146,7 @@ class _RegisterState extends State<Register> {
                             }
                           },
                           child: Text(
-                            'Sign Up',
+                            'Sign up',
                             style: TextStyle(
                               color: Colors.white,
                             ),

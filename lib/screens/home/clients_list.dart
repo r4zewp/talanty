@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:talenty_two/models/clientObj.dart';
 import 'package:talenty_two/services/auth_service.dart';
+import 'client.dart';
 
 
 
@@ -16,14 +17,13 @@ class _ClientsListState extends State<ClientsList> {
   Widget build(BuildContext context) {
 
     final clientsListProvider = Provider.of<List<ClientObj>>(context);
-    if (clientsListProvider != null) {
-      clientsListProvider.forEach((client) {
-        print(client.name);
-        print(client.service);
-        print(client.price);
-      });
+    if (clientsListProvider.length != null) {
+        return ListView.builder(
+            itemCount: clientsListProvider.length,
+            itemBuilder: (context, index){
+              return ClientTile(client: clientsListProvider[index]);
+            });
     }
-        return Container();
 //        ListView.builder(
 //          itemCount: clientsListProvider.length,
 //          itemBuilder: (context, index){

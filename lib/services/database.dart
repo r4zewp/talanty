@@ -9,13 +9,17 @@ class DatabaseService{
   //collection reference
   final CollectionReference clientCards = FirebaseFirestore.instance.collection('clientCards');
 
-  Future updateUserData(String name, String service, int price) async {
+  Future updateUserData(String name, String service, int price, String avatarLink) async {
     return await clientCards.doc(uid).set({
+      'avatar': avatarLink,
       'name': name,
       'service': service,
       'price': price,
     });
   }
+
+  // posts collection
+
 
   // list from snapshot
   List<ClientObj> _clientListFromSnapshot(QuerySnapshot snapshot){
@@ -25,6 +29,7 @@ class DatabaseService{
         name: clientData['name'] ?? '',
         service: clientData['service'] ?? '',
         price: clientData['price'] ?? 0,
+        avatarLink: clientData['avatar'],
       );
     }).toList();
   }

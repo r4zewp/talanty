@@ -48,7 +48,7 @@ class _SignInState extends State<SignIn> {
                   Padding(
                     padding: EdgeInsets.only(left: size.width * 0.05),
                     child: Text(
-                      'Talanty',
+                      'Talenty',
                       style: TextStyle(
                         color: Colors.white,
                         fontFamily: 'Poppins',
